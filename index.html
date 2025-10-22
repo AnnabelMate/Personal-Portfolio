@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="device=device-width, initial-scale=1.0, viewport-fit=cover"/>
+        <meta name="viewport" content="interactive-widget=resizes-content" />
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/643267bdfe.js" crossorigin="anonymous"></script>
+        <title>Personal Portfolio</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contacts">Get in Touch</a></li>
+            </ul>
+        </nav>
+        <header id="home">
+            <section id="picture">
+                <img src="/images/Adobe Express - file.png" alt="picture-of-annabel"/>
+            </section>
+            <section id="about-me">
+                <h1>Makena Mate</h1>
+                <p>Software Developer | DevOps Enthusiast</p>
+                <form method="get" action="/certificates/Makena CV.pdf" target="_blank">
+                    <button type="submit">About Me</button>
+                </form>
+            </section>
+        </header>
+        <main>
+            <div id="services">
+                <h2>Our Services</h2>
+                    <figure>
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <figcaption>Development & Design</figcaption>
+                        <p>Building functional, scalable, and responsive web applications from concept to deployment, focusing on a robust back-end and a smooth user experience.</p>
+                    </figure>
+                    <figure>
+                        <i class="fa-brands fa-docker"></i>
+                        <figcaption>Infrastructure & Support</figcaption>
+                        <p>Streamlining the application delivery process through automation, ensuring smooth, continuous integration and reliable deployment, primarily in a Microsoft Azure environment.</p>
+                    </figure>
+                    <figure>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <figcaption>Technical System Maintenance</figcaption>
+                        <p>Providing reliable system administration, troubleshooting, and IT support, coupled with strong communication skills to diagnose technical issues and ensure user satisfaction.</p>
+                    </figure>
+            </div>
+            <div id="projects">
+
+            </div>
+            <div id="certificates">
+                <h2>Certifications</h2>
+                <section>
+                <figure class="cert">
+                    <img src="certificates/Annabel Mate_prep.png" alt="Moringa School Software Development Prep Certificate">
+                    <figcaption>Software Development Prep Certificate</figcaption>
+                </figure>
+                <figure class="cert">
+                    <img src="certificates/NCC Certificate.png" alt="NCC Level 3 Diploma in Computing">
+                    <figcaption>Diploma in Computing</figcaption>
+                </figure>
+                <figure class="cert">
+                    <img src="certificates/Google AI Essentials Certificate.png" alt="Google AI Essentials Certificate">
+                    <figcaption>Google AI Essentials Certificate</figcaption>
+                </figure>
+                <figure class="cert">
+                    <img src="certificates/Foundations of Cybersecurity Certificate.png" alt="Foundations of Cybersecurity Certificate">
+                    <figcaption>Foundations of Cybersecurity Certificate</figcaption>
+                </figure>
+                <figure class="cert">
+                    <img src="certificates/DIPLOMA IN ICT CERTIFICATE.png" alt="Daystar University Diploma in ICT">
+                    <figcaption>Diploma in ICT</figcaption>
+                </figure>
+                </section>
+            </div>
+        </main>
+        <footer id="contacts">
+            <!--Contact form-->
+            <form action="#" method="POST">
+        <h2>Contact Us</h2>
+        <label for="name">Name: <input name="name" id="name" type="text" required/></label>
+        <label for="email">Email: <input name="email" id="email" type="email" required/></label>
+        <br><br>
+        <label for="message">Message:<textarea id="message" name="message" cols="50" rows="12" required></textarea></label>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    <!--Social Media handles-->
+        <a href="https://github.com/AnnabelMate" class="social-icons">
+            <i class="fa-brands fa-square-github"></i>
+        </a>
+          <a href="https://www.linkedin.com/in/makena-mate-066171293/" class="social-icons">
+            <i class="fa-brands fa-square-linkedin"></i>
+          </a>
+        <!--Copyright-->
+        <p id="copyright">&copy; Makena Mate 2025</p>
+        </footer>
+        </div>
+    </body>
+</html>
